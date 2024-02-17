@@ -1,7 +1,5 @@
 const express = require('express');
 
-const jwtSecret = process.env.JWT_SECRET;
-
 const app = express();
 const mongoose = require('mongoose');
 require('dotenv').config();
