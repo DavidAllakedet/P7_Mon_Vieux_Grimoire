@@ -1,10 +1,14 @@
 const express = require('express');
 
+const jwtSecret = process.env.JWT_SECRET;
+
 const app = express();
 const mongoose = require('mongoose');
 require('dotenv').config();
 const path = require('path');
 const helmet = require('helmet');
+
+
 
 const userRoutes = require('./routes/user');
 const bookRoutes = require('./routes/book');

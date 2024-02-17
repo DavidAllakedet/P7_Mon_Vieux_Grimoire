@@ -15,7 +15,7 @@ const storage = sharpMulter({
 	imageOptions: {
 		fileFormat: 'webp',
 		quality: 80,
-		resize: { width: 500, height: 700, resizeMode: 'inside' },
+		resize: { width: 500, height: 700, },
 		useTimestamp: true,
 	},
 });
